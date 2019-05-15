@@ -1,1 +1,30 @@
-tg-03-get-org-exes-95-or-greater
+[![Gitter chat](https://img.shields.io/badge/gitter-join%20chat-brightgreen.svg)](https://gitter.im/CiscoSecurity/Threat-Grid "Gitter chat")
+
+### Threat Grid Get Orginzation EXEs with a Threat Score of 95 or Greater:
+Query Threat Grid for EXE files submitted by your organization that recieved a Threat Score of 95 or greater. The script will print the Sample ID, SHA256, and File Type to the console.
+
+### Before using you must update the following:
+- tg_api_key
+
+### Usage:
+```
+python get_org_exes_95_or_greater.py
+```
+
+### Example script output:
+```
+b9ba6c591e800ed4d2d56c74f0903ecb e77d6e6fe9db9f5e1199dd2e14c16a1850d8e0f2da5f388fc0eb4b76cc319d02 exe
+83a86eb393194d4dded745953c4bb585 7287e984eeb37313d9d550446abd708647f317896d7b0b35eb46dbf9cf268215 exe
+56ab95eef7d1e77e1137d7c3b4083b4c 2e6a4378cb4b22fdeeaa77c0648128b847bc9396f0ff0ab77d5786d8ace9d94c exe
+35e75a0dc8348d1e7772dea6fb736eb7 32cb5328fbcde62dd81d68f071e48f71f66938c71e8d8b214179847728ce2771 exe
+3869c7dcf2e0dd1456aaa18c7b45127a 767a5c20983b4b8d79c9de6b6b03da96951e9781d1bbcfbba49c612eade34199 exe
+b525a613032bed5b76c14d430381c55f 2f85849ba1e0cbad13397992d144b4fae881424e2a2695034426bc4ae45f7a56 exe
+a66634c6ca77ca77d11b8f6d3021f0f4 6a5d071220196991436447d3a220d85094321757cb01e4a779c3e98662978fd8 exe
+fb8daa60dd4cf8ea025b8a0154587024 6fc94f06e9f33125665f286b79945ad644a9af2987673a6f2ee7c8ca8f17b0e9 exe
+8dc88e67714ec083ea5b88332fec3fae f935f83fe9965ff37db4989250ec753b430607e2836cb05db539320f5c1b9a95 exe
+cc29aa516f9aa67803613553ac73ea9b 5ea99a3cb93f4e1a08a753ef119a9eaecd89a5488286ccdf472cb509dba8ac0f exe
+635632b25690bc2e7707527ff3963933 25de75f8a55889e8d0fbc407c3696ab022dfbdf134f4605e58c43b56f5e69f0a exe
+b7f5785d90f36138a1c888b6520a1ec2 b763df9a8be18d8b9cc3af7ce8ff5116972c017b978d3c4008b263b7f803a803 exe
+fae11326845f86c463aa0a5d21379484 e407baa1b36f441fe2b58df54633e89da05e7aa0fd533312d1351093a3c4a4e0 exe
+3c9aa4c9125431bb7feb93d0d00c754f 0ef7c25426765f8f0fdecce385a95153385fba60d9731c070b231674e7e53b41 exe
+```
